@@ -1,0 +1,13 @@
+.card{
+    /* border: 2px solid red; */
+    height: 10rem;
+    width: 15rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.card h2{
+    font-size: 3rem;
+}

@@ -1,0 +1,76 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.time{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.time > img{
+    width: 20px;
+    height: 20px;
+    padding-right: 10px;
+}
+.innerBox{
+    min-width: 20%;
+    max-width: 95%;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hindiText{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+.ulItems{
+    list-style: none;
+    align-items: center;
+    /* border: 2px solid yellow; */
+    padding: 0;
+}
+.ulItems > li{
+    color: black;
+    /* border: 2px solid black; */
+    padding: 0.7rem 5rem;
+    margin: 1rem 0;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#win{
+    background-color: green;
+    color: white;
+    animation: zip 0.5s alternate;
+}
+#loss{
+    background-color: red;
+    color: white;
+}
+
+@keyframes zip {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    50% { transform: rotate(-10deg); } 
+    75% { transform: rotate(10deg); } 
+    100% { transform: rotate(0deg); }
+  }
+  

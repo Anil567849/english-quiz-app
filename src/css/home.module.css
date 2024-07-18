@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mainHeading{
+    font-size: 4.1rem;
+    color: white;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+
+}
+.mainSubHeading{
+    font-size: 1.5rem;
+    color: white;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    font-weight: 500;
+}
+.btnContainer{
+    margin-top: 10%;
+}
